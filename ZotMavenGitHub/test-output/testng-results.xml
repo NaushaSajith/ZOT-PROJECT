@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[The Number of DataRow count is--->3]]>
+    </line>
+    <line>
+      <![CDATA[The ErrMsg Is Displayed-->Username or Password is invalid. Please try again.]]>
+    </line>
+    <line>
+      <![CDATA[The ErrMsg Is Displayed-->Username or Password is invalid. Please try again.]]>
+    </line>
+    <line>
+      <![CDATA[The ErrMsg Is Displayed-->Username or Password is invalid. Please try again.]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="63965" started-at="2020-03-06T10:04:34Z" finished-at="2020-03-06T10:05:38Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="63965" started-at="2020-03-06T10:04:34Z" finished-at="2020-03-06T10:05:38Z">
+      <class name="com.Script.TestLoginPage">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.Script.TestLoginPage@3abbfa04]" name="openBrowser" is-config="true" duration-ms="17016" started-at="2020-03-06T15:34:34Z" finished-at="2020-03-06T15:34:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="openApplication()[pri:0, instance:com.Script.TestLoginPage@3abbfa04]" name="openApplication" is-config="true" duration-ms="13834" started-at="2020-03-06T15:34:51Z" finished-at="2020-03-06T15:35:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method status="PASS" signature="test_InvalidLoginPage()[pri:0, instance:com.Script.TestLoginPage@3abbfa04]" name="test_InvalidLoginPage" duration-ms="15940" started-at="2020-03-06T15:35:05Z" finished-at="2020-03-06T15:35:21Z">
+          <reporter-output>
+            <line>
+              <![CDATA[The Number of DataRow count is--->3]]>
+            </line>
+            <line>
+              <![CDATA[The ErrMsg Is Displayed-->Username or Password is invalid. Please try again.]]>
+            </line>
+            <line>
+              <![CDATA[The ErrMsg Is Displayed-->Username or Password is invalid. Please try again.]]>
+            </line>
+            <line>
+              <![CDATA[The ErrMsg Is Displayed-->Username or Password is invalid. Please try again.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test_InvalidLoginPage -->
+        <test-method status="PASS" signature="openApplication()[pri:0, instance:com.Script.TestLoginPage@3abbfa04]" name="openApplication" is-config="true" duration-ms="392" started-at="2020-03-06T15:35:21Z" finished-at="2020-03-06T15:35:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method status="PASS" signature="test_validLoginPage()[pri:1, instance:com.Script.TestLoginPage@3abbfa04]" name="test_validLoginPage" duration-ms="12167" started-at="2020-03-06T15:35:21Z" finished-at="2020-03-06T15:35:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_validLoginPage -->
+        <test-method status="PASS" signature="closeApplication()[pri:0, instance:com.Script.TestLoginPage@3abbfa04]" name="closeApplication" is-config="true" duration-ms="4576" started-at="2020-03-06T15:35:33Z" finished-at="2020-03-06T15:35:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+      </class> <!-- com.Script.TestLoginPage -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
